@@ -73,6 +73,8 @@ if (!client.connected()) {
       Serial.println("Conectado com Sucesso!");
     }
 
+    Temp = Temperature();
+
     if (Temp > 0) {
       Serial.print(Temp);
       Serial.println("°C");
